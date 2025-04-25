@@ -1,0 +1,63 @@
+/* App.css */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    color: #333;
+    min-height: 100vh;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .container:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  }
+  
+  h1, h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 12px 0;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: 600;
+    transition: color 0.2s;
+  }
+  
+  a:hover {
+    color: #1f618d;
+  }
+  
+  .back-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .back-link:hover {
+    color: #444;
+  }
+  
